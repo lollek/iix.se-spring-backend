@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://10.0.0.141:5432/iix-notes
+    username: www-data
+    password: www-data
+  jpa:
+    hibernate:
+      ddl-auto: validate
+server:
+  error:
+    include-exception: false
+    include-stacktrace: never
